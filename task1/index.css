@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+    height: 80px;
+    margin: 10px 40px 0px;
+}
+
+nav div{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}
+
+nav div ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+li{
+    margin-right: 50px;
+    font-size: 22px;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.login-btn{
+    width: 80px;
+    height: 40px;
+    background-color: #4f46e5;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-box-shadow: 15px 40px 47px -19px rgba(111,104,237,0.66);
+-moz-box-shadow: 15px 40px 47px -19px rgba(111,104,237,0.66);
+box-shadow: 15px 40px 47px -19px rgba(111,104,237,0.66);
+}
+
+.address{
+    background-color: #EFD9B8;
+}
+
+.carousel-item img{
+    height: 650px;
+    opacity: 0.2;
+}
+
+h3{
+    font-family: 'caveat';
+    font-size: 35px;
+    color: black;
+}
+
+.product-section{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container div{
+    margin: 15px 10px 15px 15px;
+}
+
+.product-container div img{
+    height: 350px;
+}
+
+.details{
+    display: none;
+}
+
+
+.details:hover{
+    display: block;
+}
+
+.about-container{
+    height: 350px;
+    background-color: #c0c1c2;
+    align-items: center;
+}
+
+.button{
+    width: 150px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box:hover{
+    box-shadow: 8px 8px 20px 10px rgba(49, 48, 48, 0.35);
+}
